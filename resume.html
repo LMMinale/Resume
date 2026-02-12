@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Minale - Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /**
+         * Author: Luca Minale
+         * Github: Your Github URL
+         **/
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            padding: 40px 0px;
+            color: #3d3d3f;
+        }
+
+        main {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        a, a:hover {
+            color: #64b2b6;
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #64b2b6;
+        }
+
+        .left-side {
+            padding: 25px;
+        }
+
+        .profile {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .profile h1 {
+            padding-top: 20px;
+            text-transform: uppercase;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        .profile p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .picture {
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+
+        .picture img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .btn-cv {
+            padding: 10px;
+            color: white;
+            background-color: #71c9ce;
+            width: 100%;
+            border-radius: 0px;
+            margin-top: 10px;
+        }
+
+        .btn-cv:hover {
+            color: #fff;
+            background-color: #64b2b6;
+            text-decoration: none;
+        }
+
+        .btn:focus, .btn:active {
+            outline: none !important;
+            box-shadow: none;
+            color: white;
+        }
+
+        .social {
+            padding: 0;
+            list-style-type: none;
+            margin-top: 20px;
+        }
+
+        .social li {
+            margin: 8px 0;
+        }
+
+        .social a {
+            font-size: 14px;
+        }
+
+        .social i {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .right-side {
+            padding: 0px;
+        }
+
+        section {
+            padding: 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .section-title {
+            text-transform: uppercase;
+            margin-left: -5px;
+            font-weight: 600;
+        }
+
+        .upper-row {
+            position: relative;
+        }
+
+        .company, .school-name {
+            color: #71c9ce;
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+
+        .time {
+            font-size: 15px;
+            font-weight: 500;
+            color: #71c9ce;
+        }
+
+        .job-title, .school-title {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+
+        .job li, section {
+            font-size: 15px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+        }
+
+        @media (max-width: 991.98px) {
+            .right-side {
+                border-top: 1px solid #ddd;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .left-side {
+                border-right: 1px solid #ddd;
+            }
+
+            .time {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            header {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-lg">
+        <main class="row">
+            <!-- LEFT SIDE - PROFILE & CONTACT -->
+            <header class="col-lg-4 left-side">
+                <div class="profile">
+                    <div class="picture">
+                        <img src="profile-photo.webp" alt="Luca Minale">
+                    </div>
+                    <h1>Luca Minale</h1>
+                    <p style="font-weight: 500; color: #64b2b6;">USF Entrepreneurship Grad Student</p>
+                    <p style="font-weight: 500; color: #64b2b6;">D1 Athlete</p>
+                </div>
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong></p>
+                    <p><a href="mailto:lmminale@dons.usfca.edu">lmminale@dons.usfca.edu</a></p>
+                    
+                    <p style="margin-top: 15px;"><strong>LinkedIn:</strong></p>
+                    <p><a href="https://www.linkedin.com/in/luca-minale/" target="_blank">linkedin.com/in/luca-minale</a></p>
+                </div>
+
+                <ul class="social">
+                    <li><a href="https://www.linkedin.com/in/luca-minale/" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                    <!-- Add more social links as needed -->
+                </ul>
+
+                <a href="#" class="btn btn-cv">Download CV</a>
+            </header>
+
+            <!-- RIGHT SIDE - CONTENT -->
+            <div class="col-lg-8 right-side">
+                <!-- EDUCATION SECTION -->
+                <section>
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education-entry" style="margin-bottom: 30px;">
+                        <div class="upper-row">
+                            <h3 class="school-name">University of San Francisco</h3>
+                            <div class="time">2026-2027</div>
+                        </div>
+                        <div class="school-title">M.S. Entrepreneurship & Innovation (MSEI)</div>
+                        <p style="margin-top: 10px;">Currently enrolled in the Master's program focusing on entrepreneurship and innovation.</p>
+                    </div>
+
+                    <div class="education-entry">
+                        <div class="upper-row">
+                            <h3 class="school-name">University of Northumbria Newcastle</h3>
+                        </div>
+                        <div class="school-title">Bachelor's Degree in Animation</div>
+                        <p style="margin-top: 10px;">Completed undergraduate studies with a focus on digital animation and creative media.</p>
+                    </div>
+                </section>
+
+                <!-- EXPERIENCE SECTION -->
+                <section>
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="job" style="margin-bottom: 30px;">
+                        <div class="upper-row">
+                            <h3 class="company">RunLimited</h3>
+                            <div class="time">Current</div>
+                        </div>
+                        <div class="job-title">Gait Analyst</div>
+                        <ul style="margin-top: 10px;">
+                            <li>Conducted biomechanical assessments for 100+ runners to recommend optimal footwear and improve running form</li>
+                            <li>Drove sales through consultative approach, building strong customer relationships and achieving monthly targets</li>
+                            <li>Educated clients on injury prevention and performance optimization strategies</li>
+                        </ul>
+                    </div>
+
+                    <div class="job" style="margin-bottom: 30px;">
+                        <div class="upper-row">
+                            <h3 class="company">Whitelines Snowboarding</h3>
+                            <div class="time">Recent</div>
+                        </div>
+                        <div class="job-title">Junior Graphic Animator</div>
+                        <ul style="margin-top: 10px;">
+                            <li>Created animated content for product launch campaigns reaching digital audiences across social media platforms</li>
+                            <li>Collaborated with senior designers to develop brand consistent visual assets</li>
+                            <li>Gained hands-on experience in Adobe Creative Suite and motion graphics production under tight deadlines</li>
+                        </ul>
+                    </div>
+
+                    <div class="job">
+                        <div class="upper-row">
+                            <h3 class="company">Multiple Venues</h3>
+                            <div class="time">Previous</div>
+                        </div>
+                        <div class="job-title">Line Cook - Lemongrass Deli, Chaophraya Fine Dining, Pink Lane Bakery</div>
+                        <ul style="margin-top: 10px;">
+                            <li>Executed high-volume food preparation for 150+ covers during peak service periods</li>
+                            <li>Maintained kitchen efficiency and organisation while adhering to food safety standards</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- SKILLS SECTION -->
+                <section>
+                    <h2 class="section-title">Skills</h2>
+                    
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="color: #71c9ce; font-weight: 500; margin-bottom: 10px;">Design & Creative</h4>
+                        <p>Adobe Creative Suite (After Effects, Premiere Pro, Illustrator, Photoshop), 3D Modeling (Maya, Blender), Motion Graphics, Brand Development</p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="color: #71c9ce; font-weight: 500; margin-bottom: 10px;">Technical</h4>
+                        <p>CAD Software, Microsoft Excel, Data Analysis, AI-Assisted Development, Rapid Prototyping</p>
+                    </div>
+
+                    <div style="margin-bottom: 20px;">
+                        <h4 style="color: #71c9ce; font-weight: 500; margin-bottom: 10px;">Professional</h4>
+                        <p>Customer Relationship Management, Sales, Biomechanical Analysis, Project Collaboration, Leadership</p>
+                    </div>
+
+                    <div>
+                        <h4 style="color: #71c9ce; font-weight: 500; margin-bottom: 10px;">Languages</h4>
+                        <p>English, German</p>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Luca Minale. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
