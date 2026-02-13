@@ -67,7 +67,7 @@
         .btn-cv {
             padding: 10px;
             color: white;
-            background-color: #CE9671;
+            background-color: #24D2D6;
             width: 100%;
             border-radius: 0px;
             margin-top: 10px;
@@ -124,7 +124,7 @@
         }
 
         .company, .school-name {
-            color: #CE9671;
+            color: #24D2D6;
             font-size: 15px;
             font-weight: 500;
             margin-bottom: 0px;
@@ -133,7 +133,7 @@
         .time {
             font-size: 15px;
             font-weight: 500;
-            color: #CE9671;
+            color: #24D2D6;
         }
 
         .job-title, .school-title {
@@ -215,9 +215,7 @@
                 <a href="#" class="btn btn-cv">Download CV</a>
             </header>
 
-            <!-- RIGHT SIDE - CONTENT -->
             <div class="col-lg-8 right-side">
-                <!-- EDUCATION SECTION -->
                 <section>
                     <h2 class="section-title">Education</h2>
 
@@ -239,7 +237,6 @@
                     </div>
                 </section>
 
-                <!-- EXPERIENCE SECTION -->
                 <section>
                     <h2 class="section-title">Experience</h2>
 
@@ -282,27 +279,26 @@
                     </div>
                 </section>
 
-                <!-- SKILLS SECTION -->
                 <section>
                     <h2 class="section-title">Skills</h2>
                     
                     <div style="margin-bottom: 20px;">
-                        <h4 style="color: #CE9671; font-weight: 500; margin-bottom: 10px;">Design & Creative</h4>
+                        <h4 style="color: #24D2D6; font-weight: 500; margin-bottom: 10px;">Design & Creative</h4>
                         <p>Adobe Creative Suite (After Effects, Premiere Pro, Illustrator, Photoshop), 3D Modeling (Maya, Blender), Motion Graphics, Brand Development</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
-                        <h4 style="color: #CE9671; font-weight: 500; margin-bottom: 10px;">Technical</h4>
+                        <h4 style="color: #24D2D6; font-weight: 500; margin-bottom: 10px;">Technical</h4>
                         <p>CAD Software, Microsoft Excel, Data Analysis, AI-Assisted Development, Rapid Prototyping</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
-                        <h4 style="color: #CE9671; font-weight: 500; margin-bottom: 10px;">Professional</h4>
+                        <h4 style="color: #24D2D6; font-weight: 500; margin-bottom: 10px;">Professional</h4>
                         <p>Customer Relationship Management, Sales, Biomechanical Analysis, Project Collaboration, Leadership</p>
                     </div>
 
                     <div>
-                        <h4 style="color: #CE9671; font-weight: 500; margin-bottom: 10px;">Languages</h4>
+                        <h4 style="color: #24D2D6; font-weight: 500; margin-bottom: 10px;">Languages</h4>
                         <p>English, German</p>
                     </div>
                 </section>
